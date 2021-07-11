@@ -1,0 +1,12 @@
+server:
+  port: 8087
+spring:
+  datasource:
+    password: root
+    url: jdbc:postgresql://localhost:5432/census
+    username: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+
+  application:
+    name: census-data-finder
